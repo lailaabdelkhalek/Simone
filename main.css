@@ -1,0 +1,1070 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 15px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    color: white;
+    background-color:rgba(0,0 , 0, 0.3);
+    z-index: 2;
+    
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    width: 100%;
+    justify-content: space-around;
+}
+.navlinks a{
+    text-decoration: none;
+    color: white;
+}
+.navlogo h1 a{
+    text-decoration: none;
+    color: white;
+
+}
+.navlogo{
+    display: flex;
+    align-items: center;
+}
+.navlinks{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    padding-right: 50px;
+}
+
+.setting img{
+    width: 3%;
+    position: fixed;
+    right: 0;
+    top: 50%;
+
+}
+
+#home{
+    height: 100vh;
+    background-image: url(images/intro-bg.jpg);
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar a:hover {
+    color: rgb(32, 201, 151);
+}
+.home1{
+    background-color: rgba(0,0 , 0, 0.7);
+    width: 100%;
+    height: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    }
+
+.home2 h4{
+   font-size: 30px; 
+}
+.home2 h3{
+    font-size: 60px; 
+    padding: 20px 0;
+ }
+ .home2 p{
+    font-size: 25px; 
+    padding: 10px 0;
+ }
+ .home2 .btnhome{
+    border:2px solid rgb(32, 201, 151);
+    background-color: transparent;
+    padding: 15px 40px;
+    border-radius: 35px;
+    color: rgb(32, 201, 151);
+    font-size: 18px;
+    margin-top: 20px;
+ }
+    
+
+#home h3::before{
+content: "|";
+animation-name: type;
+animation-duration: 10s;
+animation-iteration-count: infinite;
+}
+
+@keyframes type{
+    0%{content: "I’";}
+    1%{content: "I,m";}
+    2%{content: "I,m S";}
+    3%{content: "I,m Si";}
+    3%{content: "I,m Sim";}
+    4%{content: "I,m Simo";}
+    5%{content: "I,m Simon";}
+    6%{content: "I,m Simone";}
+    6%{content: "I,m Simon";}
+    7%{content: "I,m Simo";}
+    8%{content: "I,m Si";}
+    9%{content: "I,m S";}
+    10%{content: "I,m ";}
+    11%{content: "I,m a";}
+    12%{content: "I,m a F";}
+    13%{content: "I,m a Fr";}
+    14%{content: "I,m a Fre";}
+    15%{content: "I,m a Free";}
+    16%{content: "I,m a Freel";}
+    17%{content: "I,m a Freela";}
+    18%{content: "I,m a Freelan";}
+    19%{content: "I,m a Freelanc";}
+    20%{content: "I,m a Freelance";}
+    21%{content: "I,m a Freelancer.";}
+    22%{content: "I,m a Freelance";}
+    23%{content: "I,m a Freelanc";}
+    24%{content: "I,m a Freelan";}
+    25%{content: "I,m a Freela";}
+    26%{content: "I,m a Freel";}
+    27%{content: "I,m a Free";}
+    28%{content: "I,m a Fre";}
+    29%{content: "I,m a Fr";}
+    30%{content: "I,m a F";}
+    31%{content: "I,m a ";}
+    32%{content: "I,m a P";}
+    33%{content: "I,m a Ph";}
+    34%{content: "I,m a Pho";}
+    35%{content: "I,m a Phot";}
+    36%{content: "I,m a Photo";}
+    37%{content: "I,m a Photog";}
+    38%{content: "I,m a Photogr";}
+    39%{content: "I,m a Photogra";}
+    40%{content: "I,m a Photograph";}
+    41%{content: "I,m a Photographe";}
+    42%{content: "I,m a Photographer.";}
+    43%{content: "I,m a Photographe";}
+    44%{content: "I,m a Photograph";}
+    45%{content: "I,m a Photogra";}
+    46%{content: "I,m a Photogr";}
+    47%{content: "I,m a Photog";}
+    48%{content: "I,m a Photo";}
+    49%{content: "I,m a Phot";}
+    50%{content: "I,m a Pho";}
+    51%{content: "I,m a Ph";}
+    52%{content: "I,m a P";}
+    53%{content: "I,m a ";}
+    54%{content: "I,m a D";}
+    55%{content: "I,m a De";}
+    56%{content: "I,m a Des";}
+    57%{content: "I,m a Desi";}
+    58%{content: "I,m a Desig";}
+    59%{content: "I,m a Design";}
+    60%{content: "I,m a Designe";}
+    61%{content: "I,m a Designer.";}
+    62%{content: "I,m a Designe";}
+    63%{content: "I,m a Design";}
+    64%{content: "I,m a Desig";}
+    65%{content: "I,m a Desi";}
+    66%{content: "I,m a Des";}
+    67%{content: "I,m a De";}
+    68%{content: "I,m a D";}
+    69%{content: "I,m a ";}
+    70%{content: "I,";}
+    71%{content: "I";}
+    72%{content: "";}
+    
+
+}
+#about{
+    overflow: hidden;
+}
+
+
+
+
+#about .about1{
+    width: 100%;
+    height: 100%;
+ background-color: transparent;
+ margin-top: 50px;
+}
+
+.about1 .line{
+    width: 7%;
+    height: 3px;
+    margin: 10px auto;
+    background-color: rgb(32, 201, 151);
+}
+.about1 h4{
+    text-align: center;
+    font-size: 35px;
+   
+}
+
+.about1cap{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin:50px auto;
+}
+.about1 h2{
+    color: rgb(243, 241, 241);
+    font-size: 120px;
+    text-align: center;
+    position: relative;
+}
+.about1 h2::after{
+    content: "Know Me More";
+    font-size: 35px;
+    position: absolute;
+    background-color: transparent;
+    top: 40%;
+    text-align: center;
+    color: black;
+    right: 40%;
+}
+.about1capp h3::after{
+    content: "";
+    width: 8%;
+    height: 3px;
+    margin: 10px auto;
+    background-color: rgb(32, 201, 151);
+    position: absolute;
+    top: -300%;
+    right: 35%;
+}
+.about1capp h3{
+    position: relative;
+}
+.about1capp p{
+    line-height: 35px;
+    padding:20px 0;
+    padding-right: 50px;
+    font-size: 18px;
+    color:rgb(94, 99, 102);
+}
+.about1capdet h5{
+font-size: 18px;
+padding:0 20px ;
+}
+
+.about1capp span{
+    color: rgb(32, 201, 151);
+}
+
+.about1capp {
+    font-size: 23px;
+}
+.about1capdet span{
+    font-weight: normal;
+}
+
+.about1capdet a {
+   text-decoration: none;
+   color:rgb(32, 201, 151) ;
+}
+.btnabout{
+    border:2px solid ;
+    background-color:rgb(32, 201, 151); ;
+    padding: 15px 40px;
+    border-radius: 35px;
+    color: white;
+    font-size: 18px;
+    margin-top: 20px;
+}
+#about .count{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#about .count h5{
+    font-weight: 500px;
+    color: gray;
+    font-size: 45px;
+}
+#about .count h5 span{
+    font-weight: normal;
+    color:rgb(94, 99, 102);
+    font-size: 18px;
+}
+
+.count .line1{
+    position: relative;
+}
+.count .line1::before{
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    background-color:gray;
+    left: -100%;
+}
+.count .line1::after{
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    background-color:gray;
+    top: 0;
+    right: -100%;
+}
+.count .line2{
+    position: relative;
+}
+.count .line2::after{
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    background-color:gray;
+    top: 0;
+    right: -100%;
+}
+
+
+#whatido{
+    background-color: rgb(248, 249, 250);
+    padding-top: 50px;
+}
+
+#whatido h2{
+    color: rgb(243, 241, 241);
+    font-size: 120px;
+    text-align: center;
+    position: relative;
+}
+#whatido h2::after{
+    content: "What I Do ?";
+    font-size: 35px;
+    position: absolute;
+    background-color: transparent;
+    top: 40%;
+    text-align: center;
+    color: black;
+    right: 42%;
+}
+
+#whatido h2::before{
+    content: "";
+    width: 6%;
+    height: 3px;
+    margin: 10px auto;
+    background-color: rgb(32, 201, 151);
+    position: absolute;
+    top: 67%;
+    right: 47%;
+}
+
+#whatido .services{
+    width: 80%;
+    margin:  auto;
+    padding: 50px;
+    
+}
+
+#whatido .service1{
+    display: flex;
+}
+#whatido .service2{
+    display: flex;
+}
+#whatido .service3{
+    display: flex;
+}
+#whatido .service4{
+    display: flex;
+}
+
+#whatido .service5{
+    display: flex;
+}
+#whatido .service6{
+    display: flex;
+}
+
+
+.service12{
+    display: flex;
+    justify-content: space-around;
+    padding: 25px 0;
+}
+.service34{
+    display: flex;
+    justify-content: space-around;
+    padding: 25px 0;
+}
+.service56{
+    display: flex;
+    justify-content: space-around;
+    padding: 25px 0;
+}
+.service1cap{
+    padding: 0 20px;
+}
+.service2cap{
+    padding: 0 20px;
+}
+.service3cap{
+    padding: 0 20px;
+}
+.service4cap{
+    padding: 0 20px;
+}
+.service5cap{
+    padding: 0 20px;
+}
+.service6cap{
+    padding: 0 20px;
+}
+
+.services p{
+    font-size: 18px;
+    color: rgb(94, 99, 102);
+    padding-top: 13px;
+}
+.services h3{
+    color: rgb(37, 43, 51);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+#resume{
+    margin-top: 50px;
+}
+#resume h2{
+    color: rgb(243, 241, 241);
+    font-size: 120px;
+    text-align: center;
+    position: relative;
+}
+#resume h2::after{
+    content: "Resume";
+    font-size: 40px;
+    position: absolute;
+    background-color: transparent;
+    top: 40%;
+    text-align: center;
+    color: black;
+    right: 45%;
+}
+
+#resume h2::before{
+    content: "";
+    width: 5%;
+    height: 3px;
+    margin: 10px auto;
+    background-color: rgb(32, 201, 151);
+    position: absolute;
+    top: 67%;
+    right: 48%;
+}
+
+#resume .my1{
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+#resume .myedu{
+    display: flex;
+    flex-direction: column;
+    margin-right: 15px;
+}
+#resume .myexp{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+#resume .myedu1{
+    border: 1px solid rgb(222, 226, 230);
+    border-radius: 4px;
+    padding: 20px;
+    margin: 12px 0;
+}
+#resume .myedu2{
+    border: 1px solid rgb(222, 226, 230);
+    border-radius: 4px;
+    padding: 20px;
+    margin: 12px 0;
+}
+#resume .myedu3{
+    border: 1px solid rgb(222, 226, 230);
+    border-radius: 4px;
+    padding: 20px;
+    margin: 12px 0;
+}
+
+#resume .myexp{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+#resume .myexp1{
+    border: 1px solid rgb(222, 226, 230);
+    border-radius: 4px;
+    padding: 20px;
+    margin: 12px 0;
+}
+#resume .myexp2{
+    border: 1px solid rgb(222, 226, 230);
+    border-radius: 4px;
+    padding: 20px;
+    margin: 12px 0;
+}
+#resume .myexp3{
+    border: 1px solid rgb(222, 226, 230);
+    border-radius: 4px;
+    padding: 20px;
+    margin: 12px 0;
+}
+
+#resume .my1 button{
+    background-color: rgb(32, 201, 151);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 3px 10px;
+    font-weight: 400px;
+    font-size: 15px;
+}
+
+#resume .my1 h4{
+    color: rgb(37, 43, 51);
+    font-size: 24px;
+    padding: 10px 0;
+    font-weight: 500;
+}
+
+#resume .my1 h5{
+    color: rgb(220, 53, 69);
+    font-size: 18px;
+    font-weight: normal;
+}
+
+#resume .my1 p{
+    color: rgb(76, 77, 77);
+    font-size: 18px;
+    padding-top: 10px;
+    line-height: 30px;
+}
+
+#resume .my1 h3{
+    color: rgb(37, 43, 51);
+    font-size: 27px;
+    padding-top: 40px;
+    padding-bottom: 15px;
+    font-weight: 400px;
+}
+
+
+#resume .my2{
+    width: 80%;
+    margin: auto;
+   margin-top: 40px;
+   
+}
+#resume .myskills{
+    display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   margin-bottom: 30px;
+}
+
+#resume .my2 .myskills1{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-right: 20px;
+} 
+
+#resume .my2 .skill1{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding-top: 30px;
+}
+.skill1::after{
+    content: "";
+    background:linear-gradient(to right,rgb(32, 201, 151)65%,rgb(233, 236, 239)65%) ;
+    height: 10px;
+    border-radius: 5px;
+    width: 100%;
+    position: absolute;
+    top:120%;
+}
+
+
+#resume .my2 .skill2{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding-top: 50px ;
+}
+
+.skill2::after{
+    content: "";
+    background:linear-gradient(to right,rgb(32, 201, 151)95%,rgb(233, 236, 239)95%) ;
+    height: 10px;
+    border-radius: 5px;
+    width: 100%;
+    position: absolute;
+    top:120%;
+}
+#resume .my2 .skill3{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding-top: 50px ;
+}
+
+.skill3::after{
+    content: "";
+    background:linear-gradient(to right,rgb(32, 201, 151)80%,rgb(233, 236, 239)80%) ;
+    height: 10px;
+    border-radius: 5px;
+    width: 100%;
+    position: absolute;
+    top:120%;
+}
+
+
+
+#resume .my2 .myskills2{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-left: 20px;
+} 
+
+#resume .my2 .skill4{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding-top: 30px;
+}
+.skill4::after{
+    content: "";
+    background:linear-gradient(to right,rgb(32, 201, 151)70%,rgb(233, 236, 239)70%) ;
+    height: 10px;
+    border-radius: 5px;
+    width: 100%;
+    position: absolute;
+    top:120%;
+}
+
+
+#resume .my2 .skill5{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding-top: 50px ;
+}
+
+.skill5::after{
+    content: "";
+    background:linear-gradient(to right,rgb(32, 201, 151)60%,rgb(233, 236, 239)60%) ;
+    height: 10px;
+    border-radius: 5px;
+    width: 100%;
+    position: absolute;
+    top:120%;
+}
+#resume .my2 .skill6{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding-top: 50px ;
+}
+
+.skill6::after{
+    content: "";
+    background:linear-gradient(to right,rgb(32, 201, 151)99%,rgb(233, 236, 239)99%) ;
+    height: 10px;
+    border-radius: 5px;
+    width: 100%;
+    position: absolute;
+    top:120%;
+}
+
+
+#resume .myskills h4{
+    color: rgb(33, 37, 41);
+    font-weight: 300px;
+    font-size: 18px;
+}
+#resume .myskills h5{
+    color: rgb(33, 37, 41);
+    font-weight: 400px;
+    font-size: 18px;
+}
+
+
+#resume .btncv{
+    margin: 60px 0;
+  text-align: center;
+  
+}
+#resume .btncv button{
+    border:2px solid rgb(108, 117, 125); 
+    background-color: transparent;
+    padding: 15px 40px;
+    border-radius: 35px;
+    color:rgb(32, 201, 151);
+    font-size: 18px;
+    margin: 20px 0;
+    transition-duration:all 2s;
+}
+
+#resume .btncv button:hover{
+    background-color: rgb(108, 117, 125); 
+    color: white;
+}
+
+
+
+
+
+#portfolio{
+    background-color: rgb(248, 249, 250);
+    padding-top: 50px;
+}
+
+#portfolio h2{
+    color: rgb(243, 241, 241);
+    font-size: 120px;
+    text-align: center;
+    position: relative;
+}
+#portfolio h2::after{
+    content: "My Work";
+    font-size: 35px;
+    position: absolute;
+    background-color: transparent;
+    top: 40%;
+    text-align: center;
+    color: black;
+    right: 45%;
+}
+
+#portfolio h2::before{
+    content: "";
+    width: 6%;
+    height: 3px;
+    margin: 10px auto;
+    background-color: rgb(32, 201, 151);
+    position: absolute;
+    top: 67%;
+    right: 47%;
+}
+
+#portfolio .work{
+    text-align: center;
+    padding: 30px 0;
+}
+
+#portfolio span{
+    padding: 0 10px;
+    color: rgb(123, 128, 132);
+    font-weight: 400px;
+    font-size: 18px;
+}
+
+#portfolio .items{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    padding-bottom: 50px;
+    
+}
+
+#portfolio .items img{
+   width: 100%;
+   border-radius: 4px;
+}
+
+#portfolio .item14{
+    display: flex;
+   
+    flex-direction: column;
+}
+#portfolio .item27{
+    display: flex;
+   
+    flex-direction: column;
+}
+#portfolio .item356{
+    display: flex;
+  
+    flex-direction: column;
+}
+
+#portfolio .item1,.item2,.item3,.item4,.item5,.item6,.item7{
+    padding: 10px;
+    
+}
+
+
+
+
+
+
+
+#client{
+    margin: 50px 0;
+}
+
+
+#client h2{
+    color: rgb(243, 241, 241);
+    font-size: 120px;
+    text-align: center;
+    position: relative;
+}
+#client h2::after{
+    content: "Cleint Speak";
+    font-size: 35px;
+    position: absolute;
+    background-color: transparent;
+    top: 40%;
+    text-align: center;
+    color: black;
+    right: 43%;
+}
+
+#client h2::before{
+    content: "";
+    width: 6%;
+    height: 3px;
+    margin: 10px auto;
+    background-color: rgb(32, 201, 151);
+    position: absolute;
+    top: 67%;
+    right: 48%;
+}
+
+
+#client .clients{
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+}
+#client .client1 {
+    background-color: rgb(248, 249, 250);
+    border-radius: 4px;
+    margin-right: 10px;
+    padding: 30px;
+}
+#client .client2{
+    background-color: rgb(248, 249, 250);
+    border-radius: 4px;
+    margin-left: 10px;
+    padding: 30px;
+}
+
+#client .client1head{
+    display: flex;
+}
+#client .client2head{
+    display: flex;
+}
+
+
+.clients h3{
+    color: rgb(33, 37, 41);
+    font-size: 17px;
+    padding: 10px 0;
+}
+
+
+.clients h4{
+    color:rgb(108, 117, 125) ;
+    font-size: 17px;   
+}
+.clients p{
+    color: rgb(33, 37, 41);
+    font-size: 16px;
+    padding: 10px 0;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+
+
+
+
+
+#contact{
+    background-color: rgb(248, 249, 250);
+    padding-top: 50px;
+}
+#contact .contact1{
+    width: 80%;
+    margin: auto;
+}
+#contact h2{
+    color: rgb(233, 229, 229);
+    font-size: 120px;
+    text-align: center;
+    position: relative;
+}
+#contact h2::after{
+    content: "Get In Touch";
+    font-size: 35px;
+    position: absolute;
+    background-color: transparent;
+    top: 40%;
+    text-align: center;
+    color: black;
+    right: 43%;
+}
+
+#contact h2::before{
+    content: "";
+    width: 6%;
+    height: 3px;
+    margin: 10px auto;
+    background-color: rgb(32, 201, 151);
+    position: absolute;
+    top: 67%;
+    right: 47%;
+}
+
+
+#contact .contact1{
+    display: flex;
+
+} 
+#contact .line1{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+#contact .form{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    padding: 30px;
+
+}
+#contact .name input{ 
+    width: 120%;   
+    color: rgb(101, 101, 101);
+    border-color: rgb(218, 225, 227);
+    border-radius: 5px;
+    padding: 15px 0;
+    padding-right: 100px;
+}
+#contact .email input{
+    width: 100%; 
+    color: rgb(101, 101, 101);
+    border-color: rgb(218, 225, 227); 
+    border-radius: 5px;
+    padding: 15px 0;
+    padding-right: 100px;
+}
+
+
+#contact .msg textarea{
+    width: 100%;
+    color: rgb(101, 101, 101);
+    border-color: rgb(218, 225, 227);
+    border-radius: 5px;
+    padding: 15px 0;
+   
+}
+
+
+#contact h4{
+    color: rgb(37, 43, 51);
+    font-size: 20px;
+}
+#contact .details h3{
+    color: rgb(76, 77, 77);
+    font-weight: normal;
+    
+    font-size: 18px;
+}
+#contact .details h4{
+    color: rgb(37, 43, 51);
+  
+}
+#contact .details h4{
+    color: rgb(37, 43, 51);
+    margin: 33px 0;
+}
+#contact .details h5{
+    color: rgb(76, 77, 77);
+    font-weight: normal;
+    padding: 5px 0;
+    font-size: 18px;
+}
+.line0{
+    margin-top: 20px;
+}
+.btncontact{
+    text-align: center;
+}
+.btncontact button{
+    border:2px solid ;
+    background-color:rgb(32, 201, 151); ;
+    padding: 15px 40px;
+    border-radius: 35px;
+    color: white;
+    font-size: 18px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.footer1{
+    width: 80%;
+    margin:50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+#footer .footer1 p{
+    font-size: 18px;
+    color: rgb(37, 43, 51);
+    padding-bottom: 40px;
+    
+ } 
+ #footer .footer1 h4{
+    font-size: 18px;
+    color: rgb(37, 43, 51);
+    padding-bottom: 40px;
+    font-weight:normal ;
+ } 
+
+ #footer p a{
+     text-decoration: none;
+     color: rgb(32, 201, 151);
+     font-weight: bold;
+ }
+
+ .footer1cap{
+     display: flex;
+    
+ }
+ #footer .footer1cap a{
+    text-decoration: none;
+    color: rgb(37, 43, 51);
+    font-weight: bold;
+    font-weight: normal;
+}
+#footer .footer1cap a:hover{
+    color: rgb(32, 201, 151);
+}
+#footer .footer1cap hr{
+    height: 30%;
+}
